@@ -1,0 +1,19 @@
+Bundling 6%
+/workspace/rays-stone-test/node_modules/@remotion/renderer/dist/browser/BrowserRunner.js:269
+            reject(new Error([
+                   ^
+
+Error: Failed to launch the browser process!
+Error: Closed with null signal: SIGTRAP
+    at ChildProcess.<anonymous> (/workspace/rays-stone-test/node_modules/@remotion/renderer/dist/browser/BrowserRunner.js:260:32)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+[3692:3692:1028/145851.459202:ERROR:third_party/crashpad/crashpad/util/linux/socket.cc:45] setsockopt: Operation not permitted (1)
+
+Troubleshooting: https://remotion.dev/docs/troubleshooting/browser-launch
+    at onClose (/workspace/rays-stone-test/node_modules/@remotion/renderer/dist/browser/BrowserRunner.js:269:20)
+    at ChildProcess.<anonymous> (/workspace/rays-stone-test/node_modules/@remotion/renderer/dist/browser/BrowserRunner.js:260:24)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0

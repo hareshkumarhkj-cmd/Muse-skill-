@@ -1,0 +1,47 @@
+test_asset_symlink_rejected (test_tools.ProjectChecks.test_asset_symlink_rejected) ... ok
+test_boolean_frame_count_fails (test_tools.ProjectChecks.test_boolean_frame_count_fails) ... ok
+test_composition_hyphen_allowed (test_tools.ProjectChecks.test_composition_hyphen_allowed) ... ok
+test_composition_underscore_rejected (test_tools.ProjectChecks.test_composition_underscore_rejected) ... ok
+test_declared_excluded_asset_fails (test_tools.ProjectChecks.test_declared_excluded_asset_fails) ... ok
+test_malformed_ipv6_source_url_fails_without_crash (test_tools.ProjectChecks.test_malformed_ipv6_source_url_fails_without_crash) ... ok
+test_missing_voice_fails (test_tools.ProjectChecks.test_missing_voice_fails) ... ok
+test_nonarray_section_fails_without_crash (test_tools.ProjectChecks.test_nonarray_section_fails_without_crash) ... ok
+test_nonstring_enumerations_fail_without_crash (test_tools.ProjectChecks.test_nonstring_enumerations_fail_without_crash) ... ok
+test_output_inside_source_fails (test_tools.ProjectChecks.test_output_inside_source_fails) ... ok
+test_packaging_requires_lockfile (test_tools.ProjectChecks.test_packaging_requires_lockfile) ... ok
+test_scene_gap_fails (test_tools.ProjectChecks.test_scene_gap_fails) ... ok
+test_scene_overlap_fails (test_tools.ProjectChecks.test_scene_overlap_fails) ... ok
+test_sound_only_missing_asset_fails (test_tools.ProjectChecks.test_sound_only_missing_asset_fails) ... ok
+test_sound_only_narration_rejected (test_tools.ProjectChecks.test_sound_only_narration_rejected) ... ok
+test_sound_only_valid (test_tools.ProjectChecks.test_sound_only_valid) ... ok
+test_suspicious_private_key_rejected (test_tools.ProjectChecks.test_suspicious_private_key_rejected) ... ok
+test_traversal_fails (test_tools.ProjectChecks.test_traversal_fails) ... ok
+test_undeclared_narration_file_fails (test_tools.ProjectChecks.test_undeclared_narration_file_fails) ... ok
+test_unreferenced_symlink_rejected_by_packager (test_tools.ProjectChecks.test_unreferenced_symlink_rejected_by_packager) ... ok
+test_valid_contract (test_tools.ProjectChecks.test_valid_contract) ... ok
+test_verified_claim_requires_sources (test_tools.ProjectChecks.test_verified_claim_requires_sources) ... ok
+test_wrong_hash_fails (test_tools.ProjectChecks.test_wrong_hash_fails) ... ok
+test_zip_exclusions_and_integrity (test_tools.ProjectChecks.test_zip_exclusions_and_integrity) ... ok
+test_metadata_bad_count (test_verify_render.RenderChecks.test_metadata_bad_count) ... ok
+test_metadata_extra_audio_in_silent (test_verify_render.RenderChecks.test_metadata_extra_audio_in_silent) ... ok
+test_metadata_ffprobe_error (test_verify_render.RenderChecks.test_metadata_ffprobe_error) ... ok
+test_metadata_ffprobe_malformed_json (test_verify_render.RenderChecks.test_metadata_ffprobe_malformed_json) ... ok
+test_metadata_invalid_root_json (test_verify_render.RenderChecks.test_metadata_invalid_root_json) ... ok
+test_metadata_malformed_rate (test_verify_render.RenderChecks.test_metadata_malformed_rate) ... ok
+test_metadata_missing_audio_in_voiced (test_verify_render.RenderChecks.test_metadata_missing_audio_in_voiced) ... ok
+test_metadata_missing_ffprobe (test_verify_render.RenderChecks.test_metadata_missing_ffprobe) ... ok
+test_metadata_missing_video_file (test_verify_render.RenderChecks.test_metadata_missing_video_file) ... ok
+test_metadata_multiple_video_streams (test_verify_render.RenderChecks.test_metadata_multiple_video_streams) ... ok
+test_metadata_one_frame_tolerance (test_verify_render.RenderChecks.test_metadata_one_frame_tolerance) ... ok
+test_metadata_sound_only_audio_missing (test_verify_render.RenderChecks.test_metadata_sound_only_audio_missing) ... ok
+test_metadata_sound_only_audio_present (test_verify_render.RenderChecks.test_metadata_sound_only_audio_present) ... ok
+test_metadata_valid (test_verify_render.RenderChecks.test_metadata_valid) ... ok
+test_metadata_wrong_count (test_verify_render.RenderChecks.test_metadata_wrong_count) ... ok
+test_metadata_wrong_dimensions (test_verify_render.RenderChecks.test_metadata_wrong_dimensions) ... ok
+test_metadata_wrong_duration (test_verify_render.RenderChecks.test_metadata_wrong_duration) ... ok
+test_metadata_wrong_fps (test_verify_render.RenderChecks.test_metadata_wrong_fps) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.045s
+
+OK

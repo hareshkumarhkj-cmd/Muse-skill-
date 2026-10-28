@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "channel": "Rays of Sanatan",
+  "status": "proposed-working-direction-not-final-brand-approval",
+  "language": "Hindi",
+  "promise": "Curiosity, cinematic craft, respectful and accurately attributed stories",
+  "default_test": {"duration_seconds": 15, "width": 1080, "height": 1920, "fps": 30, "composition": "RaysShort01"},
+  "palette": {"midnight_blue": "#07121F", "warm_gold": "#F4CE83", "technical_accent": "#74EAFF"},
+  "reference_audio_identity": "unverified",
+  "voice_direction": "Original warm Hindi storyteller; select actual tool and voice after audition",
+  "facts_rule": "Distinguish inspected fact, attributed tradition and fictional visualization",
+  "rights_rule": "Current-task authorization; no reference-logo/audio copying or default cloning",
+  "memory_rule": "Keep approved, draft and rejected separate; no automatic cross-host memory"
+}

@@ -1,0 +1,71 @@
+MASTER-SKILL RELEASE RETEST — 2026-10-28
+
+This copy uses production-contract.json as its Composition/Sequence frame source.
+From this example directory: npm install, npm run typecheck,
+npx remotion compositions, and bare npx remotion render all passed (exit 0).
+All 450 frames encoded. Real ffprobe metadata check passed: 1080x1920,
+30fps, exactly 15s, 450 decoded frames, no audio. Contract/hash check passed.
+See validation/master-*.log and root VALIDATION.md for exact scope and limits.
+This is a SILENT STILL-MOTION proof, not generated character footage or narration.
+No Muse execution or voice audition is claimed.
+
+The following earlier preparation notes/errors are retained for transparency:
+
+ACTUAL TEST RESULTS — 2026-10-28
+
+PASS: npm install
+Installed pinned dependencies, including Remotion 4.0.529; exit code 0.
+package-lock.json is included for reproducible dependency resolution.
+
+PASS: npm run typecheck
+Final TypeScript check completed with exit code 0.
+
+PASS: npx remotion render
+Executed from this project's root with no composition or path arguments.
+Final exit code: 0. Rendered and encoded all 450 frames.
+Output: out/rays-stone-test.mp4, approximately 21.2 MB.
+Chromium was detected from the runtime PATH by the project configuration.
+The render ran outside the command sandbox because that sandbox blocks
+browser socket creation. This is a host restriction, not a Muse instruction.
+
+PASS: ffprobe output verification
+H.264; 1080x1920; 30/1 fps; 450 decoded frames; exactly 15.000000 seconds.
+No audio stream, as documented. Decoder reports full-range yuvj420p (4:2:0).
+
+PASS: npx remotion compositions
+Exactly one composition: RaysShort01, 30fps, 1080x1920, 450 frames (15s).
+
+PASS: Visual QC of frames 45, 180, 330, 435 from the actual rendered MP4.
+Hindi captions, branding and fictional/AI-image disclosures are readable;
+no missing assets or missing-glyph boxes were observed. This is sampled QC,
+not a claim that every possible playback device or every frame was inspected.
+
+EARLIER FAILURES, DIAGNOSED AND FIXED
+1. Initial TypeScript error:
+src/components/Design.tsx(17,22): error TS2339: Property 'add' does not exist on type 'FontFaceSet'.
+Fixed by declaring the standard browser FontFaceSet.add method's type.
+The final typecheck passes; no type checking is disabled.
+
+2. Initial browser download failed due to unavailable network DNS in the
+command sandbox. Complete original error: validation/initial-render-error.log.
+Fixed by automatic detection of an installed Chrome/Chromium executable.
+Machines without one use Remotion's automatic browser download.
+
+3. Chromium could not launch inside the command sandbox (socket permission).
+Complete error: validation/sandbox-render-error.log.
+Rerunning the same bare render command outside that sandbox succeeded.
+
+Complete final command logs are in validation/. Failed logs are preserved
+without truncating the errors; they can contain this test host's runtime
+paths, not personal machine paths or credentials.
+
+PORTABILITY LIMITS
+Tested on this Linux/Node 24.19.0 host, not in Muse itself. There is no live
+connection to Muse. A new machine needs supported Node/npm and working
+installation access. npm install and npx remotion render require no key or
+manual project configuration. Browser libraries/permissions remain normal
+host prerequisites; arbitrary unsupported machines cannot be guaranteed.
+
+This is an original silent STILL-IMAGE MOTION proof, not a recreation of
+all the reference's moving characters, narration, music or simulations.
+No supplied reference video/audio or marks are packaged.

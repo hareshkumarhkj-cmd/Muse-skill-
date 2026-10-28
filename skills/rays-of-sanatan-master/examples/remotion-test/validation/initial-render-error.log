@@ -1,0 +1,15 @@
+Downloading Chrome Headless Shell https://www.remotion.dev/chrome-headless-shell
+Downloading from: https://remotion.media/chromium-headless-shell-linux-x64-149.0.7790.0.zip?clear
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+Error: getaddrinfo EAI_AGAIN remotion.media
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'remotion.media'
+}
+
+Node.js v24.19.0

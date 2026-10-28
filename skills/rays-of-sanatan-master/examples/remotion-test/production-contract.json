@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "project": {
+    "composition_id": "RaysShort01",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_frames": 450,
+    "stage": "visual-proof",
+    "motion_mode": "still-motion",
+    "audio_mode": "silent"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "start_frame": 0,
+      "end_frame": 90,
+      "visual_type": "still",
+      "asset": "public/hook.png",
+      "caption": "ये पत्थर टिके कैसे हैं?"
+    },
+    {
+      "id": "reveal",
+      "start_frame": 90,
+      "end_frame": 240,
+      "visual_type": "still",
+      "asset": "public/detail.png",
+      "caption": "हर जोड़ में छिपा है संतुलन।"
+    },
+    {
+      "id": "climax",
+      "start_frame": 240,
+      "end_frame": 390,
+      "visual_type": "still",
+      "asset": "public/hero.png",
+      "caption": "छोटे जोड़। विराट रचना।"
+    },
+    {
+      "id": "end",
+      "start_frame": 390,
+      "end_frame": 450,
+      "visual_type": "still",
+      "asset": "public/hero.png",
+      "caption": "कला या इंजीनियरिंग? दोनों।"
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/hook.png",
+      "kind": "image",
+      "origin": "generated-original",
+      "rights_note": "Original AI image generated for user-authorized fictional test.",
+      "sha256": "5ed3f75a49e8a201a634ad455284ed0045a090ca43d315cbb085484781ab1f7a"
+    },
+    {
+      "path": "public/detail.png",
+      "kind": "image",
+      "origin": "generated-original",
+      "rights_note": "Original AI image generated for user-authorized fictional test.",
+      "sha256": "197be12ced39bd9ef61ba57890b7ac271ed8e1b700696d2e6db57ecdf6ce0e1b"
+    },
+    {
+      "path": "public/hero.png",
+      "kind": "image",
+      "origin": "generated-original",
+      "rights_note": "Original AI image generated for user-authorized fictional test.",
+      "sha256": "61d88e2da9faa48f2a542445d92ea4cb0e85b09b973a14c82d053823714c4712"
+    },
+    {
+      "path": "public/fonts/NotoSansDevanagari-Bold.ttf",
+      "kind": "font",
+      "origin": "open-license",
+      "rights_note": "Noto Devanagari system sans, SIL OFL; see public/fonts/LICENSE.txt",
+      "sha256": "77ad688cfe1dc55185bf4edb4db3c614202c65dd23a1463ad0e23fc52bcc9a5c"
+    }
+  ],
+  "claims": [
+    {
+      "id": "fictional-architecture",
+      "classification": "fiction",
+      "sentence": "This temple and the structural visualization are fictional artwork, not a real-monument construction claim.",
+      "sources": []
+    }
+  ],
+  "narration": []
+}

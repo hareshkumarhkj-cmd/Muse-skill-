@@ -1,0 +1,3 @@
+WARNING: Static checks do not prove render success, source truth, rights ownership, audio quality, or absence of all secrets; complete runtime and human QC.
+WARNING: Render metadata does not verify visual quality, pronunciation, lip sync, narration content, SFX timing, or factual accuracy; perform perceptual QC.
+RENDER METADATA CHECK: PASS
